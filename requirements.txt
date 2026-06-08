@@ -1,4 +1,22 @@
-transformers
+# Core HuggingFace libraries
+transformers==4.46.0
+huggingface_hub
+datasets
+evaluate
+accelerate
+
+# Model tokenizer backends
+sentencepiece
+sacrebleu
+rouge_score
+py7zr
+
+# Deep learning framework
 torch
-jupyter
+
+# Data handling
 numpy
+pandas
+
+# Notebook & utilities
+jupyter
