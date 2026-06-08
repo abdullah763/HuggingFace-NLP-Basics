@@ -14,6 +14,15 @@ Through this notebook, I've practically explored and implemented:
 - **Text Generation & NLP:** Applying Large Language Models (LLMs) to perform tasks such as text completion, sentiment analysis, and summarization.
 - **PyTorch/TensorFlow Integration:** Running models using deep learning frameworks as backends.
 
+## 🛠️ Mini-Projects Included
+
+### 1. Academic Paper Summarizer (ArXiv API + BART)
+At the end of the notebook, I built a practical mini-project that:
+- Automatically fetches recent AI and Machine Learning research papers using the **ArXiv API**.
+- Extracts the complex, dense abstracts of these papers.
+- Uses a Hugging Face text summarization model (`facebook/bart-large-cnn`) to automatically condense the academic text into short, easy-to-read summaries.
+- **Expected Output:** A 2-3 sentence plain-English summary of a highly technical research paper.
+
 ## 💻 How to Run Locally
 
 1. **Clone the repository:**
